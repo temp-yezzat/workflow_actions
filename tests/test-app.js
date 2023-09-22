@@ -18,7 +18,7 @@ describe("GET /", () => {
         // there should be a 200 status code
         res.status.should.equal(200);
         // the response should be Hello World
-        res.text.should.equal("Hello World");
+        res.text.should.equal("Hello World!");
 
         // the response should be JSON
         res.type.should.equal("text/plain");
